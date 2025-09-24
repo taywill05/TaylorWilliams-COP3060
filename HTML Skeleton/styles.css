@@ -1,0 +1,54 @@
+body{
+    font-family: "Arial";
+    background: whitesmoke;
+}
+h1{
+    color: cadetblue;
+}
+h2{
+    color: cornflowerblue;
+}
+.bio{
+    color: deeppink;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 16px;
+    background: #f9f9f9;
+    border: 1px solid lightgrey;
+    margin: 2rem auto 0 auto;
+    max-width: 600px;
+    padding: 1em;
+    border-radius: 5px;
+
+}
+form input{
+    background: white;
+    border: 1px solid darkgray
+}
+
+
+
+label{
+    padding: 0.5em 0.5em 0.5em 0;
+    text-align: left;
+    grid-column: 1/2;
+}
+input{
+    padding: 0.7em;
+}
+
+input:focus{
+    outline: 3px solid deepskyblue;
+}
+input{
+    grid-column: 2/3;
+}
+
+#myHeader{
+    background-color: lightblue;
+    color: mediumpurple;
+    padding: 40px;
+    text-align: center;
+}
