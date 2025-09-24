@@ -7,7 +7,7 @@
     <list default="true" id="74db4cfb-fd6d-4880-9351-1b4b873a38fa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML Skeleton/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Skeleton/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Skeleton/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Skeleton/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Skeleton/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -94,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1757449549370</updated>
       <workItem from="1757449551002" duration="4435000" />
-      <workItem from="1758670721888" duration="2006000" />
+      <workItem from="1758670721888" duration="2632000" />
     </task>
     <servers />
   </component>

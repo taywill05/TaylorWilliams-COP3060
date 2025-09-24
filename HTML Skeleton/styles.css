@@ -1,6 +1,6 @@
 body{
     font-family: "Arial";
-    background: dimgray;
+    background: whitesmoke;
 }
 h1{
     color: cadetblue;
@@ -9,7 +9,7 @@ h2{
     color: cornflowerblue;
 }
 .bio{
-    color: darkorange;
+    color: deeppink;
 }
 form{
     display: grid;
@@ -43,4 +43,11 @@ input:focus{
 }
 input{
     grid-column: 2/3;
+}
+
+#myHeader{
+    background-color: lightblue;
+    color: mediumpurple;
+    padding: 40px;
+    text-align: center;
 }
