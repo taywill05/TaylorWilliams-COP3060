@@ -19,6 +19,14 @@ let email = null;
 let nextTerm = term + 1;
 let fullTimeStu = (classes.length >= 5)&&(isCS===true);
 
+const classList = document.getElementById("classList");
+
+for(let i of classes){
+    const li = document.createElement("li");
+    li.textContent =i;
+    classList.appendChild(li)
+}
+
 const checkPassword =()=>{
     const passwordInput = document.getElementByID("pword");
     const message = document.getElementByID("passwordMessage");
