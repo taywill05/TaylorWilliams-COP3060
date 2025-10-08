@@ -55,3 +55,13 @@ function checkInputs(){
     }
 }
 
+document.getElementById("fname").addEventListener("input",() =>{
+    const fname = document.getElementById("fname").value;
+    const fnameMsg = document.getElementById("site")
+    if(fname){
+        fnameMsg.textContent = "Welcome " + fname + "!";
+        fnameMsg.style.color = "blue";
+    }
+});
+
+
