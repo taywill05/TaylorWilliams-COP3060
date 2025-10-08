@@ -1,8 +1,8 @@
 console.log("Welcome to my coding site!")
 console.log("My Github Repo: https://github.com/taywill05/TaylorWilliams-COP3060")
 
-const fname = "Taylor";
-const lname = "Williams";
+const firstName = "Taylor";
+const lastName = "Williams";
 const gpa = 3.95;
 const isCS = true;
 const stuTermNum = 5;
@@ -16,7 +16,7 @@ const studentInfo = {
 }
 let email = null;
 
-let nextTerm = term + 1;
+let nextTerm = stuTermNum + 1;
 let fullTimeStu = (classes.length >= 5)&&(isCS===true);
 
 const classList = document.getElementById("classList");
@@ -27,15 +27,31 @@ for(let i of classes){
     classList.appendChild(li)
 }
 
-const checkPassword =()=>{
-    const passwordInput = document.getElementByID("pword");
-    const message = document.getElementByID("passwordMessage");
-    if(passwordInput.value.length <8){
+const checkLength = () =>{
+    const passwordInput = document.getElementById("pword");
+    const message = document.getElementById("passwordMessage");
+    if(passwordInput.value.length < 8){
         message.style.color = "red";
-        message.style.content = "Password must be at least 8 characters long";
+        message.textContent = "Password must be at least 8 characters long";
+    }
+    else{
+        message.style.color = "green";
+        message.textContent = "Valid Password";
+    }
+}
+function checkInputs(){
+    const fname = document.getElementById("fname").value;
+    const lname = document.getElementById("lname").value;
+    const email = document.getElementById("email").value;
+    const pword = document.getElementById("pword").value;
+    const message = document.getElementById("check");
+
+    if(!fname || !lname || !email || !pword){
+        message.textContent = "Please fill out all fields";
+        message.style.color = "red"
     }else{
         message.style.color = "green";
-        message.style.content = "Valid Password!";
+        message.textContent = "Valid Input. You may submit.";
     }
 }
 

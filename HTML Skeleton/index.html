@@ -18,7 +18,9 @@
     <label for="email">Email: </label>
     <input type="text" id="email" name="email"><br>
     <label for="pword">Password: </label>
-    <input type="password" id="pword" name="pword"><br>
+    <input type="password" onkeypress="checkLength()" id="pword" name="pword" class="toggleColor" required minlength="8">
+    <span id="passwordMessage" style="color: red"></span>
+    <br/>
 
     <br><p>Do you like our site? Y/N</p>
     <label for="yes">Yes</label>
@@ -44,7 +46,9 @@
     <button type="button" id="check"
             onclick="checkInputs()">Validate</button>
     <input id="submit-button" type ="submit" value="Submit">
-    <ul id="classList">Fall 2025 Classes</ul>
+</form>
+    <p>Fall 2025 Classes</p>
+    <ul id="classList"></ul>
 
 
 
@@ -72,6 +76,6 @@
         </tr>
     </table>
 
-</form>
+
 </body>
 </html>
